@@ -1,0 +1,228 @@
+head,body{
+    background-color:#d8dddb;
+    font-family:monospace;
+    color: #000000;
+    font-size: 12pt;
+}
+
+/* navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(3, 1, 1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #5e5d5d;
+  }
+
+/* all */
+h1{
+  color: rgb(255, 83, 163);
+  text-align: center;
+}
+h2, h3{
+  color: #000000;
+  text-align: center;
+  background-color: #f0ffff;
+  float: inline-start;
+  position:initial;
+  text-decoration: underline;
+  width: auto;
+
+}
+
+h4{
+  color:#242222;
+  text-align: center;
+  position: relative;
+}
+
+p{
+  text-align: center;
+}
+
+footer{
+  float: right;
+  bottom: 0;
+}
+
+.footer_name{
+  float: left;
+}
+
+/* Home Page */
+.description{
+    text-align: center;
+    color: black;
+    background-color: #ffc0cb;
+    margin: 5px;
+    padding: 2px;
+}
+
+.progress{
+  float:inline-start;
+  text-align: center;
+}
+
+img{
+    border-radius: 8px;
+    padding: 5px;
+    float:inline-start;
+    background-color: #f0ffff;
+}
+
+.sal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote {
+    border-left: 10px;
+    text-align: center;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+  }
+
+/* Resume Page */
+
+#resume{
+  background-color: #ffc0cb;
+}
+#job_description{
+  font-style: italic;
+}
+
+#tables{
+  float: inherit;
+  text-align: center;
+}
+
+#education_table{
+  float: inline-start;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#activities{
+  text-align: center;
+  border-radius: 2pt;
+  border-color: #ffffff;
+}
+
+#Extra{
+  font-weight: 700;
+  font-size: 16pt;
+}
+
+/* Fun Facts Page */
+
+#book_caption{
+  float: right;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  top: 180px;
+  font-size: 14pt;
+  border-style: solid;
+  background-color: #ffc0cb;
+}
+
+.entertainment{
+  font-size: 16pt;
+  text-align: center;
+}
+.file{
+  float: right;
+}
+
+.clip{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border-style: groove;
+}
+
+/* Blog Page */
+.apple{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.apple_description{
+  display: flex;
+  font-size: 12pt;
+  border-style: solid;
+  background-color: #ffc0cb;
+}
+
+input[type=text]:invalid {
+  border: red solid 1px;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container > label {
+ text-align: center;
+}
+#comment{
+  background-color: #ffffff;
+}
+#addComments {
+  width: 20%;
+  padding: 5px;
+  background-color: rgb(155, 187, 229);
+  color: white;
+  align-self: center;
+}
+
+.wrapper > button {
+  margin-right: 5px;
+  padding: 5px;
+  background-color: #ffc0cb;
+  color: white;
+}
+
+/* Trivia Page */
+#question{
+  background-color: #ffc0cb;
+  font-size: 16pt;
+  display: flex;
+}
+
+#button{
+  margin-right: 5px;
+  padding: 5px;
+  background-color:deeppink;
+  color: white;
+}
+
+#textbox{
+  width: 20%;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  align-self: center;
+}
